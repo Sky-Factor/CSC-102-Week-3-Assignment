@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Flight</title>
+
+    <!-- connect to javascript-->
+    <script src = "MainPage.js"></script>
+   <!--connect to CSS-->
+    <link rel = "stylesheet" type = "text/css" href = "ChecklistCSS.css">
+
+</head>
+<body>
+
+<h1>Let's Begin</h1>
+<!--give the overview of the settup-->
+<button onclick="Overview()">Overview</button> 
+
+
+<center>
+        <!--generates table-->
+      <table class = "tablTop" id = "Checklist" border = "2" width = "80%">
+        <!--gives the number of boxes and the amount of space taken from main determinor-->
+        <col style = "width: 20%;">
+        <col style = "width: 20%;">
+        <col style = "width: 20%;">
+        <col style = "width: 20%;">
+<tr style = "font-family: fantasy;"> 
+            <th>DJI Air 2s Specs</th>
+</tr>
+
+<tr></tr>
+        <td>Weight 595g</td><td>Max Ascend speed 6 m/s</td><td>Max Flight (no Wind) 31min</td><td>Max distence 18.5 km</td>
+</tr>
+<tr>
+        <td><strong>Speed Modes</strong></td><td>(S mode) 19m/s</td><td>(N mode) 15m/s</td><td>(C Mode) 5 m/s</td>
+</tr>
+<tr>
+        <td></td><td>Operating Temprature 0° to 40°C</td><td>Operating Frequency 2.4GHz & 5.8GHz</td><td></td>
+</tr>
+    </table>
+</center>
+
+<!--adds Audio-->
+<audio controls autoplay>
+        
+    <source src="Welcome.mp3" type="audio/mpeg">
+
+  </audio>
+
+
+</body>
+</html>
